@@ -1,0 +1,10 @@
+
+> magicmirror@2.11.0 start /home/pi/MagicMirror
+> DISPLAY="${DISPLAY:=:0}" ./node_modules/.bin/electron js/electron.js
+
+[1119:0403/144511.138740:FATAL:setuid_sandbox_host.cc(157)] The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I'm aborting now. You need to make sure that /home/pi/MagicMirror/node_modules/electron/dist/chrome-sandbox is owned by root and has mode 4755.
+
+> magicmirror@2.11.0 start /home/pi/MagicMirror
+> DISPLAY="${DISPLAY:=:0}" ./node_modules/.bin/electron js/electron.js
+
+[1372:0403/154313.340355:FATAL:atom_main_delegate.cc(210)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
